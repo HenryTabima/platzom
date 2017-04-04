@@ -1,4 +1,4 @@
-export default function platzom(str) {
+export default function (str) {
   let translation = str
 
   // Si la palabra original es un palíndromo,

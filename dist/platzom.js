@@ -3,8 +3,8 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = platzom;
-function platzom(str) {
+
+exports.default = function (str) {
   var translation = str;
 
   // Si la palabra original es un palíndromo,
@@ -52,4 +52,4 @@ function platzom(str) {
   }
 
   return translation;
-}
+};
