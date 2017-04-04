@@ -1,7 +1,7 @@
 {
   "name": "Platzom",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/platzom.js",
   "scripts": {
     "build": "babel src/platzom.js -o dist/platzom.js"
   },
