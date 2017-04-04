@@ -2,5 +2,9 @@
   "name": "Platzom",
   "version": "0.1.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HenryTabima/platzom.git"
+  },
   "license": "MIT"
 }
