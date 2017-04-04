@@ -2,9 +2,16 @@
   "name": "Platzom",
   "version": "0.1.0",
   "main": "index.js",
+  "scripts": {
+    "build": "babel src/platzom.js -o dist/platzom.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/HenryTabima/platzom.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.3.2"
+  }
 }
