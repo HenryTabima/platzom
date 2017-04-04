@@ -11,12 +11,18 @@ npm install platzom-henry
 ## Uso
 
 ```
+const platzom = require('platzom-henry').default
+```
+o
+```
 import platzom from 'platzom-henry'
+```
 
+```
 platzom("Programar") // Program
 platzom("Zorro") // Zorrope
 platzom("Zarpar") // Zarppe
-platzom("abecedario") // avece-dario
+platzom("abecedario") // abece-dario
 platzom("sometemos") // SoMeTeMoS
 ```
 
